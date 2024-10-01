@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Math Problem Solver</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Enter a Math Problem</h2>
+            <form id="mathForm">
+                <input type="text" id="problem" placeholder="e.g., 2 + 2" required>
+                <button type="submit">Solve</button>
+            </form>
+            <div id="result" class="hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Math Solver</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
