@@ -1,5 +1,5 @@
 body {
-    background-color: lemonchiffon;
+    background-color: rgb(255, 236, 253);
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -7,16 +7,23 @@ h1 {
     color: cornflowerblue;
     
 }
+h3 {
+    text-align: center;
+    
+    
+}
+
 .projects {
     display:flex;
     flex-wrap:wrap;
+    
 }
     .project {
     width: 30%;
     margin: 10px;
-    padding: 20px 10px;
-    background: rgb(133, 21, 15); /* pick a color */  
-    border-radius: 25%;
+    padding: 30px 20px;
+    background: rgb(231, 122, 92); /* pick a color */  
+    border-radius: 35%;
         }
     .project img{
         width: 300px;
